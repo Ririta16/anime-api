@@ -1,18 +1,18 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import "./App.css";
-import axios, { AxiosResponse } from "axios";
-import Loading from "./components/Loading";
+// import axios, { AxiosResponse } from "axios";
+// import Loading from "./components/Loading";
 import Anime from "./Anime"
 
-type ParamsType = {
-  page: number;
-  per_page: number;
-};
+// type ParamsType = {
+//   page: number;
+//   per_page: number;
+// };
 
-type CreateUser = {
-  name: string;
-  job: string;
-};
+// type CreateUser = {
+//   name: string;
+//   job: string;
+// };
 
 function App() {
   
