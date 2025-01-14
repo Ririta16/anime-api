@@ -1,5 +1,6 @@
 {
-  "name": "workshop-api",
+  "name": "anime-api",
+  "homepage": "https://ririta16.github.io/anime-api",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "antd": "^5.22.6",
