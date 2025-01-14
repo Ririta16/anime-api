@@ -114,7 +114,7 @@ export default function Anime() {
               <div className="flex xl:flex-row flex-col items-center justify-between gap-5">
                 {seasons.map((season) => (
                   <Link
-                    to={`https://ririta16.github.io/anime-api/${season.toLowerCase()}`}
+                    to={`/${season.toLowerCase()}`}
                     key={season}
                     className="w-fit"
                   >
